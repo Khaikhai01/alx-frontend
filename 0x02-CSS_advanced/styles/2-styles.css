@@ -1,5 +1,5 @@
 body {
-    foreground-color: #161616;
+    color: #161616;
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 a {
-    foreground-color: #161616;
+    color: #161616;
 }
 
 .visually-hidden {
@@ -15,9 +15,9 @@ a {
 }
 
 .card-category {
-    foreground-color: #D73953;
+    color: #D73953;
 }
 
 .section-tagline {
-    foreground-color: #D73953;
+    color: #D73953;
 }

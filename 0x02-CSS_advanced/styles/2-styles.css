@@ -1,9 +1,9 @@
-body {
-    color: #161616;
-}
-
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    color: #161616;
 }
 
 a {

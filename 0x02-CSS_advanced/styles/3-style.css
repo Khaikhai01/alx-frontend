@@ -8,7 +8,7 @@
 }
 
 body {
-    foreground-color: var(--text-color);
+    color: var(--text-color);
 }
  
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 a {
-    foreground-color: #161616;
+    color: #161616;
 }
 
 .visually-hidden {
@@ -24,9 +24,9 @@ a {
 }
 
 .card-category {
-    foreground-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    foreground-color: var(--color-primary);
+    color: var(--color-primary);
 }

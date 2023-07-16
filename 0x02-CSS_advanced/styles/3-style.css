@@ -7,12 +7,12 @@
     --text-color: var(--color-black);
 }
 
+html {
+    overflow: auto;
+}
+
 body {
     color: var(--text-color);
-}
- 
-html {
-    scroll-behavior: smooth;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 }
 
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 .section-tagline {

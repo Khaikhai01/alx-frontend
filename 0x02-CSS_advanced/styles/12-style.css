@@ -4,7 +4,7 @@
    --color-white: #ffffff;
    --color-light-grey: #f3f3f3;
    --color-dark-grey: #353535;
-   --text-color: black;
+   --text-color: var(--color-black);
    --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
    --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
    --font-size-small: 1.2rem;
@@ -20,7 +20,7 @@
    --section-header-align: center;
    --section-tagline-transform: uppercase;
    --section-title-margin: 0;
-   --section-title-color: black;
+   --section-title-color: var(--color-black);
 
 }
 
@@ -55,11 +55,11 @@ a {
 }
 
 .section-title {
-   font-family: var(--font-family-title);
-   font-size: var(--font-size-xx-large);
-   font-weight: var(--font-weight-bold);
-   margin: var(--section-title-margin);
-   color: var(--section-title-color);
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
 
 .section-tagline {
@@ -67,7 +67,6 @@ a {
    font-family: var(--font-family-title);
    text-transform: var(--section-tagline-transform);
    font-weight: var(--font-weight-bold);
-
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -48,7 +48,7 @@ a {
 }
 
 .section-header {
-   taxt-align: var(--section-header-align)
+   taxt-align: var(--section-header-align);
 }
 
 .section-tagline {

@@ -1,14 +1,21 @@
-.root
-
-body {
-    foreground-color: #161616;
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535
+    --text-color: black;
 }
 
+body {
+    foreground-color: var(--text-color);
+}
+ 
 html {
     scroll-behavior: smooth;
 }
 
-a {
+a {n 
     foreground-color: #161616;
 }
 
@@ -17,9 +24,9 @@ a {
 }
 
 .card-category {
-    foreground-color: #D73953;
+    foreground-color: var(--color-primary);
 }
 
 .section-tagline {
-    foreground-color: #D73953;
+    foreground-color: var(--color-primary);
 }

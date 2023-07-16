@@ -221,8 +221,8 @@ ul.row {
   background-color: var(--color-black);
 }
 
-.card-title {
-  mergin: none;
+.card-service .card-title {
+  mergin: 0;
 }
 
 .card-service a {

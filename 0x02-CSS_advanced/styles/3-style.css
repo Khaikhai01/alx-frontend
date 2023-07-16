@@ -16,7 +16,7 @@ html {
 }
 
 a {
-    color: #161616;
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -24,7 +24,7 @@ a {
 }
 
 .card-category {
-    color: var(--color-primary);
+    color: #D73953;
 }
 
 .section-tagline {
